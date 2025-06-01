@@ -8,6 +8,7 @@ By: Jeppe Fræhr Linderød (zwb495)
 Supervised by Jens Petersen
 
 University of Copenhagen
+
 Department of Computer Science
 
 Submitted: June 2nd, 2025
