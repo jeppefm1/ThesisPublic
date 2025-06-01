@@ -1,0 +1,4 @@
+python3 ../train.py --with_condition --traincsv jeppes_project/Thesis/rigshospitalet/PythonML/trainScans.csv --valcsv jeppes_project/Thesis/rigshospitalet/PythonML/valScans.csv --lowDose jeppes_project/data/reconstructions/OSSART10pct --fullDose jeppes_project/data/reconstructions/OSSARTFull --batchsize 2 --gradientAccumSteps 1 --steps 100000 --input_size 128 --depth_size 128 --num_channels 64 --num_res_blocks 1 --timesteps 500 --save_and_sample_every 1000 --train_lr 0.000009375 --step_start_ema 100000 --update_ema_every 1 --resume_weight models/25-05-07T144107FixedRescale-AUGProp-0.0-lr_0.0006_bs_2_tsteps500_sizes128x128x128_gradac_1_numChannels_64_emaStart_100000_updateEMAStep1/results/model-25-05-07T144107FixedRescale-AUGProp-0.0-lr_0.0006_bs_2_tsteps500_sizes128x128x128_gradac_1_numChannels_64_emaStart_100000_updateEMAStep1-milestone-65-step-65000.pt --resume_wandb_id suqlq4r2
+
+
+
